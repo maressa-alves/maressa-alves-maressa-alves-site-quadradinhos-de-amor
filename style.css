@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #b19b82;
+    --main-bg-color: #e9d6d6;
     --text-color: #9a031e;
     --header-bg-color: #9a031e;
 }
@@ -16,13 +16,18 @@ h1, h2, h4 {
     text-align: center;
 }
 
-.navbar-brand {
+
+.navbar-brand{
     color: var(--header-bg-color);
 }
 
 .navbar-nav a:hover {
     color: var(--header-bg-color);
     text-decoration: underline;
+}
+
+.navbar-nav :active{
+    background-color: #9a031e;
 }
 
 
@@ -75,12 +80,22 @@ float: right;
 color: orange;
 }
 
-img {
-    max-width: 100%;
+#entrega-de-mantas img{
+    width: 100%;
     height: auto;
+}
+
+#encontros-crochetaco img{
+    width: 100%;
+    height: auto;
+}
+
+img {
+    margin-bottom: 15px;
+    border-radius: 10px;
 } 
   
-#contato iframe
+#contato
 {
     width: 100%;
 }
@@ -91,8 +106,8 @@ ul {
   }
 
 
-  /* Seções colapsáveis */
-  .filmesHead {
+/* Seções colapsáveis */
+.filmesHead {
     background-color: #9a031e;
     cursor: pointer;
     padding: 15px;
@@ -102,13 +117,50 @@ ul {
     font-weight: bold;
   }
 
-  .btn {
+.btn {
     background-color: #f06292; /* Rosa vibrante */
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
 }
+
 a{
     color: #031a99;
+}
+
+.embed{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 15px;
+}
+
+.embed iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 30px;
+}
+
+.text-center p {
+    font-size: 70%;
+}
+
+#pix img{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#extra-texto{
+    text-align: center;
+}
+
+#receita-manta img{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: 15px;
 }
